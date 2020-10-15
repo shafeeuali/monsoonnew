@@ -1,0 +1,162 @@
+/* big tablet to 1200: (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row { padding: 0 2%; }
+	
+	cite {
+        font-size: 100%;
+    }
+	
+	.owner-type {
+        font-size: 145%;
+    }
+	
+	footer .col { width: 100%; }
+	
+	.footer-nav,
+	.social-links{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 3px;
+	}
+	
+}
+
+/* small tablet to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .logo {
+        height: 100px;
+    }
+    .main-nav {
+        font-size: 100%;
+    }
+    .main-nav li {
+        margin-left: 20px;
+    }
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .services-box {margin-top: 10px;}
+    .services-box:last-child {margin-top: 10px;}
+    .services {margin-bottom: 40px;}
+    .services:last-of-type {margin-bottom: 0;}
+    .handshake { width: 100%;}
+    
+    cite ion-icon {
+        font-size: 30px;
+    }
+    
+    cite {
+        font-size: 95%;
+    }
+    
+    blockquote {
+        font-size: 90%;
+    }
+    
+    .owner-type {
+        font-size: 115%;
+    }
+    
+    .target-box ul li {
+        font-size: 80%;
+    }
+    
+    footer .col {
+        width: 100%;
+    }
+    
+    .footer-nav li a:link,
+    .footer-nav li a:visited {
+        font-size: 90%;
+    }
+	
+	.footer-nav,
+	.social-links{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 3px;
+	}
+    
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    
+    .col { 
+		width: 100%;
+		margin: 0 0 4% 0;
+	}
+    
+    .main-nav { display: none; }
+
+    .logo {
+        height: 80px;
+    }
+
+    h1 { font-size: 180%; }
+    h2 { font-size: 145%; }
+
+    .section-features .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section-features .box { 
+        padding-top: 8%; 
+        text-align: center;
+    }
+
+    .services { margin-bottom: 35px; }
+    
+    .services div {
+        height: 40px;
+        width: 40px;
+        font-size: 130%;
+        margin-right: 10px;
+    }
+    
+    .section-why h3 {
+        padding-left: 7%;
+        padding-top: 3%;
+    }
+    
+    .section-steps ion-icon {
+        font-size: 40px;
+    }
+    
+    .section-steps cite {
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+    
+    .section-steps blockquote {
+        font-size: 15px;
+    }
+    
+	footer .footer-nav {
+		display: none;
+	}
+	
+	footer .social-links {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+   
+}
