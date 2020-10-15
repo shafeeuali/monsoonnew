@@ -35,11 +35,18 @@ body {
     overflow-x: hidden;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Raleway', sans-serif;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -47,6 +54,7 @@ h1,h2,h3,h4,h5 {
     height: 0;
     visibility: hidden;
 }
+
 
 /*
 ----------------------------------------------------
@@ -75,6 +83,7 @@ section {
 .bold {
     font-weight: 900;
 }
+
 
 /*HEADINGS*/
 
@@ -120,6 +129,7 @@ h2:after {
     text-align: center;
 }
 
+
 /*BOX, ICON HOVER*/
 
 .box:hover {
@@ -132,6 +142,7 @@ h2:after {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
 }
+
 
 /*PARAGRAPHS*/
 
@@ -148,6 +159,7 @@ h2:after {
     text-align: justify;
 }
 
+
 /*ICONS*/
 
 .icon-big {
@@ -159,6 +171,7 @@ h2:after {
     -webkit-transition: all .5s;
     transition: all .5s;
 }
+
 
 /*
 ----------------------------------------------------
@@ -193,6 +206,7 @@ BUTTON
     border: 1px solid #1D3557;
 }
 
+
 /*
 ----------------------------------------------------
 HEADER
@@ -211,16 +225,17 @@ HEADER
     color: #F1FAEE;
 }
 
-#monsoon-span, #resorts-span {
+#monsoon-span,
+#resorts-span {
     letter-spacing: 3px;
 }
 
 header {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.8)),to(rgba(0,0,0,0.8))), url(/resources/img/pool.jpg);
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/resources/img/pool.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(/resources/img/pool.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/resources/img/pool.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;   
+    height: 100vh;
     background-attachment: fixed;
 }
 
@@ -241,13 +256,14 @@ header {
     margin-top: 20px;
 }
 
-.logo-black { 
-	display: none;
-	height: 80px;
+.logo-black {
+    display: none;
+    height: 80px;
     width: auto;
     float: left;
     margin: 5px 0;
 }
+
 
 /* Main Navigation */
 
@@ -279,19 +295,22 @@ header {
     border-bottom: 3px solid #1D3557;
 }
 
+
 /* Sticky Navigation */
 
 .sticky {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: rgba(255,255,255,0.98);
-	box-shadow: 0 2px 2px #ebebeb;
-	z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #ebebeb;
+    z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 30px; }
+.sticky .main-nav {
+    margin-top: 30px;
+}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -299,8 +318,14 @@ header {
     color: #1D3557;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
 
 /*
 ----------------------------------------------------
@@ -311,6 +336,7 @@ INTRODUCTION
 #last-para {
     margin-bottom: 40px;
 }
+
 
 /*
 ----------------------------------------------------
@@ -357,6 +383,7 @@ IMAGE GALLERY
     -webkit-transform: scale(1.04);
     transform: scale(1.04);
 }
+
 
 /*
 ----------------------------------------------------
@@ -409,6 +436,7 @@ SERVICES
     padding-top: 5px;
 }
 
+
 /*
 ----------------------------------------------------
 WHY
@@ -421,6 +449,7 @@ hr {
     border-color: #E63946;
 }
 
+
 /*
 ----------------------------------------------------
 STEPS
@@ -428,8 +457,8 @@ STEPS
 */
 
 .section-steps {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.8)),to(rgba(0,0,0,0.8))), url(/resources/img/hotel-1111199_1280.jpg);
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/resources/img/hotel-1111199_1280.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(/resources/img/hotel-1111199_1280.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/resources/img/hotel-1111199_1280.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -455,6 +484,7 @@ cite ion-icon {
     color: #1D3557;
     vertical-align: middle;
 }
+
 
 /*
 ----------------------------------------------------
@@ -498,13 +528,14 @@ TARGET
     list-style: none;
 }
 
-.target-box ul ion-icon{
+.target-box ul ion-icon {
     padding-right: 10px;
 }
 
 .target-box ul li {
     padding: 5px 0;
 }
+
 
 /*
 ----------------------------------------------------
@@ -531,7 +562,6 @@ ul.office-details li {
 ul.office-details li ion-icon {
     font-size: 20px;
     width: 45px;
-    
 }
 
 .contact-img img {
@@ -540,6 +570,7 @@ ul.office-details li ion-icon {
     margin: auto;
     display: block;
 }
+
 
 /*
 ----------------------------------------------------
@@ -623,4 +654,25 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+
+/*
+----------------------------------------------------
+ANIMATIONS
+----------------------------------------------------
+*/
+
+.js--wp-1,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5 {
+    opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated {
+    opacity: 1;
 }

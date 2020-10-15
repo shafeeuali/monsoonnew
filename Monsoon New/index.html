@@ -6,8 +6,11 @@
     <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css">
     <link rel="stylesheet" href="/vendors/css/Grid.css">
     <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/animate.css">
     <link rel="stylesheet" href="/resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@100;300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     <title>Monsoon Hotels &amp; Resorts</title>
 </head>
 
@@ -18,24 +21,24 @@
                 <img src="/resources/img/FOURPETALS%20PNG%20FORMAT.png" alt="Monsoon logo" class="logo">
                 <img src="/resources/img/FOURPETALS%20WHITE%20BACK%20(1).png" alt="Monsoon logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Our Advantage</a></li>
-                    <li><a href="#">Our Approach</a></li>
-                    <li><a href="#">Our Clients</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#introduction">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#advantage">Our Advantage</a></li>
+                    <li><a href="#approach">Our Approach</a></li>
+                    <li><a href="#clients">Our Clients</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
 
         <div class="hero-text-box">
             <h1><span id="monsoon-span">Monsoon<br>Hotels &amp; </span><span id="resorts-span">Resorts</span></h1>
-            <a class="btn btn-full" href="#">Welcome</a>
+            <a class="btn btn-full js--scroll-to-introduction" href="#">Welcome</a>
         </div>
 
     </header>
 
-    <section class="section-features js--section-features">
+    <section class="section-features js--section-features" id="introduction">
 
         <div class="row">
 
@@ -55,7 +58,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-3 box">
                 <ion-icon name="rocket-outline" class="icon-big"></ion-icon>
                 <h3>Mission</h3>
@@ -75,7 +78,7 @@
 
     </section>
 
-    <section class="section-img">
+    <section class="section-img js--wp-5">
 
         <ul class="img-showcase clearfix">
             <li>
@@ -125,12 +128,12 @@
     </section>
 
 
-    <section class="section-services">
+    <section class="section-services" id="services">
         <div class="row">
             <h2>What do we <span class="bold">offer you</span> ?</h2>
         </div>
         <div class="row">
-            <div class="col span-1-of-2 services-box">
+            <div class="col span-1-of-2 services-box js--wp-2">
                 <img src="/resources/img/handy.png" alt="handshake" class="handshake">
             </div>
             <div class="col span-1-of-2 services-box">
@@ -150,7 +153,7 @@
         </div>
     </section>
 
-    <section class="section-why">
+    <section class="section-why" id="advantage">
 
         <div class="row">
             <h2>Why work <span class="bold">with us</span> ?</h2>
@@ -194,11 +197,11 @@
         </div>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps " id="approach">
         <div class="row">
             <h2>It's all about these few <span class="bold">steps</span></h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4">
                 <blockquote>
                     <cite>
@@ -231,11 +234,11 @@
         </div>
     </section>
 
-    <section class="section-target">
+    <section class="section-target" id="clients">
         <div class="row">
             <h2>Our <span class="bold">clients</span></h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-4">
             <div class="col span-1-of-3">
                 <div class="target-box first">
                     <div>
@@ -313,7 +316,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
 
         <div class="row">
             <h2>Get in <span class="bold">Touch</span></h2>
@@ -347,7 +350,7 @@
                 </div>
             </div>
             <div class="col span-1-of-2">
-                <div class="contact-img">
+                <div class="contact-img js--wp-6">
                     <img src="/resources/img/contact%20us.jpg" alt="Contact-us">
                 </div>
             </div>
